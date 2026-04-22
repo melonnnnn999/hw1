@@ -1,0 +1,8 @@
+../EuroSAT_RGB/Highway/Highway_415.jpg | true=Highway | pred=River
+../EuroSAT_RGB/PermanentCrop/PermanentCrop_2146.jpg | true=PermanentCrop | pred=Pasture
+../EuroSAT_RGB/AnnualCrop/AnnualCrop_914.jpg | true=AnnualCrop | pred=Residential
+../EuroSAT_RGB/Highway/Highway_2410.jpg | true=Highway | pred=River
+../EuroSAT_RGB/AnnualCrop/AnnualCrop_2908.jpg | true=AnnualCrop | pred=Industrial
+../EuroSAT_RGB/Forest/Forest_1652.jpg | true=Forest | pred=Pasture
+../EuroSAT_RGB/HerbaceousVegetation/HerbaceousVegetation_2663.jpg | true=HerbaceousVegetation | pred=SeaLake
+../EuroSAT_RGB/Highway/Highway_1823.jpg | true=Highway | pred=AnnualCrop

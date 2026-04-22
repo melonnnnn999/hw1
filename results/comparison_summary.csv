@@ -1,0 +1,4 @@
+run,hidden_dim,activation,epochs,lr,lr_decay,weight_decay,best_val_acc,best_epoch,test_acc,test_loss,folder
+final_report,64,tanh,20,0.005,0.95,0.0001,0.5543,19,0.5649,1.3327,outputs/final_report
+final_tanh64_e40,64,tanh,40,0.005,0.95,0.0001,0.5612,40,0.5726,1.2991,outputs/final_tanh64_e40
+final_relu128_e30,128,relu,30,0.005,0.95,0.0001,0.6136,29,0.6111,1.0892,outputs/final_relu128_e30

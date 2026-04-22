@@ -1,0 +1,38 @@
+HW1 最佳结果索引（不是实验报告）
+
+本目录是当前效果最好的一版，从 outputs/final_relu128_e30 复制整理而来。
+
+最终训练参数：
+- hidden_dim: 128
+- activation: relu
+- lr: 0.005
+- lr_decay: 0.95
+- weight_decay: 0.0001
+- batch_size: 128
+- epochs: 30
+- data: EuroSAT_RGB 全量数据
+- split: train 70%, val 15%, test 15%
+- seed: 42
+
+最终结果：
+- best validation accuracy: 0.6136
+- best epoch: 29
+- test accuracy: 0.6111
+- test loss: 1.0892
+
+对比实验：
+- outputs/final_report: hidden_dim=64, tanh, 20 epoch, test accuracy=0.5649
+- outputs/final_tanh64_e40: hidden_dim=64, tanh, 40 epoch, test accuracy=0.5726
+- outputs/final_relu128_e30: hidden_dim=128, relu, 30 epoch, test accuracy=0.6111
+- 对比表：outputs/comparison_summary.csv
+
+报告可用文件：
+- best_model.npz：验证集准确率最高的模型权重
+- history.json：每个 epoch 的 train/val loss 和 accuracy
+- training_curves.png：训练集/验证集 loss 曲线，训练集/验证集 accuracy 曲线
+- test_result.txt：测试集准确率、loss、混淆矩阵
+- test_confusion_matrix.csv：测试集混淆矩阵
+- test_metrics.json：测试集指标和类别名
+- first_layer_weights.png：第一层隐藏层权重可视化
+- error_examples/wrong_examples.png：测试集错例图片
+- error_examples/wrong_examples.txt：错例路径、真实类别、预测类别

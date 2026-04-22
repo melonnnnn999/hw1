@@ -1,0 +1,17 @@
+hidden_dim,lr,weight_decay,activation,best_val_acc,best_epoch,checkpoint
+64,0.005,0.0,relu,0.3022222222222222,3,outputs/search_report/h64_lr0.005_wd0.0_relu/best_model.npz
+64,0.005,0.0,tanh,0.39111111111111113,3,outputs/search_report/h64_lr0.005_wd0.0_tanh/best_model.npz
+64,0.005,0.0001,relu,0.32,3,outputs/search_report/h64_lr0.005_wd0.0001_relu/best_model.npz
+64,0.005,0.0001,tanh,0.39111111111111113,3,outputs/search_report/h64_lr0.005_wd0.0001_tanh/best_model.npz
+64,0.001,0.0,relu,0.3111111111111111,3,outputs/search_report/h64_lr0.001_wd0.0_relu/best_model.npz
+64,0.001,0.0,tanh,0.33555555555555555,3,outputs/search_report/h64_lr0.001_wd0.0_tanh/best_model.npz
+64,0.001,0.0001,relu,0.3111111111111111,3,outputs/search_report/h64_lr0.001_wd0.0001_relu/best_model.npz
+64,0.001,0.0001,tanh,0.33555555555555555,3,outputs/search_report/h64_lr0.001_wd0.0001_tanh/best_model.npz
+128,0.005,0.0,relu,0.37333333333333335,3,outputs/search_report/h128_lr0.005_wd0.0_relu/best_model.npz
+128,0.005,0.0,tanh,0.37777777777777777,3,outputs/search_report/h128_lr0.005_wd0.0_tanh/best_model.npz
+128,0.005,0.0001,relu,0.38222222222222224,3,outputs/search_report/h128_lr0.005_wd0.0001_relu/best_model.npz
+128,0.005,0.0001,tanh,0.37777777777777777,3,outputs/search_report/h128_lr0.005_wd0.0001_tanh/best_model.npz
+128,0.001,0.0,relu,0.28888888888888886,3,outputs/search_report/h128_lr0.001_wd0.0_relu/best_model.npz
+128,0.001,0.0,tanh,0.32666666666666666,3,outputs/search_report/h128_lr0.001_wd0.0_tanh/best_model.npz
+128,0.001,0.0001,relu,0.28888888888888886,3,outputs/search_report/h128_lr0.001_wd0.0001_relu/best_model.npz
+128,0.001,0.0001,tanh,0.32666666666666666,3,outputs/search_report/h128_lr0.001_wd0.0001_tanh/best_model.npz
